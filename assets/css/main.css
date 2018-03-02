@@ -604,3 +604,8 @@ ul li {
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
 }
+
+.personal-color {
+  color: #ffffff;
+}
+    
