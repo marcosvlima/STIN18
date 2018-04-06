@@ -1,404 +1,483 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="assets/images/favicon.png" />
 
-    <title>STIN - 2018</title>
+        <title>STIN - 2018</title>
 
-    <!-- css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body data-spy="scroll" data-target="#site-nav">
-    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
-        <div class="container">
-            <div class="navbar-header">
+        <!-- css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    
+    <body data-spy="scroll" data-target="#site-nav">
+        <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- logo -->
+                    <div class="site-branding">
+                        <a class="logo" href="index.html">
+                            <!-- logo image  -->
+                            <img src="assets/images/logo-stin.png" alt="Logo">
+                            2018
+                        </a>
+                    </div>
 
-                <!-- logo -->
-                <div class="site-branding">
-                    <a class="logo" href="index.html">
-                        
-                        <!-- logo image  -->
-                        <img src="assets/images/logo-stin.png" alt="Logo">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- /.navbar-header -->
 
-                        2018
-                    </a>
-                </div>
-
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-            </div><!-- /.navbar-header -->
-
-            <div class="collapse navbar-collapse" id="navbar-items">
-                <ul class="nav navbar-nav navbar-right">
-
-                    <!-- navigation menu -->
-                    <li class="active"><a data-scroll href="#about">Sobre</a></li>
-                    <li><a data-scroll href="#deadline">Datas Importantes</a></li>              
-                    <li><a data-scroll href="#schedule">Programação</a></li>
-                    <li><a data-scroll href="#register">Inscrições</a></li>
-                    <li><a data-scroll href="#organization">Organização</a></li>
-                    <li><a data-scroll href="#hosting">Hospedagem e transporte</a></li>
-		    <li><a data-scroll href="#contact">Contato</a></li>
-		     
-                
-                </ul>
-            </div>
-        </div><!-- /.container -->
-    </nav>
-
-    <header id="site-header" class="site-header valign-center"> 
-        <div class="intro">
-
-            <h2>27 a 30 de Agosto de 2018 / Erechim</h2>
-            
-            <h1>IX Simpósio de Tecnologia da Informação da Região </br> Noroeste do Rio Grande do Sul</h1>
-            
-            <a class="btn btn-white" data-scroll href="#registration">Inscreva-se</a>
-        
-        </div>
-    </header>
-
-    <section id="about" class="section about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-
-                    <h3 class="section-title">Sobre o STIN</h3>
-
-                    <p>O STIN é um evento itinerante que anualmente é sediado por uma instituição de ensino superior da Região Noroeste do RS. Em sua 9ª edição, o STIN tem como objetivos: promover discussões e divulgação de produções acadêmicas, de pesquisas e de soluções empresariais na área de Tecnologia da Informação (TI) considerando o contexto e as potencialidades regionais.</p>
-
-		    <h4 class="section-title">Chamada de Minicursos e Tutoriais</h4>
-
-		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		    
-		    <h4 class="section-title">Chamada de Trabalhos</h4>
-
-		    <p>Os melhores trabalhos serão convidados a publicar na próxima edição da Revista REABTIC (ISSN 2446-7634).</p>
-
-		    <h5 class="section-title">Submissão</h5>
-
-		    <p>Os Artigos aceitos para apresentação e publicação no 9o STIN serão apresentados no período de x a x2 de agosto de 2018 (em cronograma a ser divulgado):</p>
-
-		    <ul class="list-arrow-right">
-		      <li>Os melhores artigos serão apresentados em plenária os demais em pôster.</li>
-		      <li>Os artigos devem seguir o formato de artigos da SBC disponível AQUI.</li>
-		      <li>Devem ter no máximo 12 (doze) páginas incluindo referências, figuras e tabelas.</li>
-		      <li>Podem ser submetidos em Português, Inglês ou Espanhol.</li>
-		      <li>Devem ser submetidos através do e-mail: stin@setrem.com.br, conforme informado em "Datas Importantes”.</li>
-		    </ul>
-			
-		    
-                </div><!-- /.col-sm-6 -->
-
-                <div class="col-sm-6">
-
-                    <h3 class="section-title multiple-title">Tópicos de interesse</h3>
-
-                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
-
-                    <ul class="list-arrow-right">
-
-		      <li>Aplicações de Computação na Indústria</li>
-		      <li>Banco de Dados</li>
-		      <li>Cidades Inteligentes</li>
-		      <li>Comércio Eletrônico</li>
-		      <li>Desenvolvimento de Aplicativos Móveis</li>
-		      <li>Desenvolvimento de Sistemas Web</li>
-		      <li>Engenharia de Requisitos</li>
-		      <li>Engenharia de Software</li>
-		      <li>Fundamentos Teóricos da Computação e Métodos Formais</li>
-		      <li>Gestão e Governança de TI</li>
-		      <li>Informática Aplicada a Saúde</li>
-		      <li>Informática na Educação</li>
-		      <li>Inteligência Artificial</li>
-		      <li>Interação Humano Computador</li>
-		      <li>Internet das Coisas</li>
-		      <li>Manutenção de Software</li>
-		      <li>Métodos, Técnicas, Linguagens e Ferramentas para Computação</li>
-		      <li>Processos de Software</li>
-		      <li>Redes de Computadores</li>
-		      <li>Segurança da Informação</li>
-		      <li>Sistemas de Informações</li>
-		      <li>Verificação, Validação e Teste de Software</li>
-		      <li>Informática Aplicada à Agropecuária</li>
-		      <li>Computação em nuvem</li>
-		      <li>Computação de Alto Desempenho</li>
-		      <li>(outros tópicos são bem-vindos)</li>
-                    
+                <div class="collapse navbar-collapse" id="navbar-items">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- navigation menu -->
+                        <li class="active"><a data-scroll href="#about">Sobre</a></li>
+                        <li class="active"><a data-scroll href="#submission">Submissões</a></li>
+                        <li><a data-scroll href="#deadline">Datas Importantes</a></li>              
+                        <li><a data-scroll href="#schedule">Programação</a></li>
+                        <li><a data-scroll href="#register">Inscrições</a></li>
+                        <li><a data-scroll href="#contact">Contato</a></li>
                     </ul>
-
-                </div><!-- /.col-sm-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
-
-    <section id="deadline" class="section bg-image-1 facts text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-
-                    <i class="ion-ios-paper"></i>
-                    <h3>Chamada de Trabalhos</h3>
-		    <p class="personal-color">
-		      Submissão: 14 de Março<br>
-		      Notificação: 20 de Abril<br>
-		      Versao final: 05 de maio
-		    </p>
-                
                 </div>
-		
-                <div class="col-sm-3">
-                
-                    <i class="ion-speakerphone"></i>
-                    <h3>Chamada de Minicursos</h3>
-		    <p class="personal-color">
-		      Submissão: 14 de Março<br>
-		      Notificação: 20 de Abril<br>
-		      Versao final: 05 de maio
-		    </p>
-                
-                </div>
-                <div class="col-sm-3">
+            </div><!-- /.container -->
+        </nav>
 
-                    <i class="ion-pricetags"></i>
-                    <h3>Inscrições</h3>
-		    <p class="personal-color">20 de Julho a 26 de Agosto</p>
-		    
-                
-                </div>
-                <div class="col-sm-3">
-
-                    <i class="ion-ios-calendar"></i>
-                    <h3>IX STIN</h3>
-		    <p class="personal-color">27 a 30 de Agosto<p>
-                
-                </div>
-            </div><!-- row -->
-        </div><!-- container -->
-    </section>
-
-    <section id="schedule" class="section faq">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Programação</h3>
+        <!-- HEADER -->
+        <header id="site-header" class="site-header valign-center"> 
+            <div class="intro">
+                <h2>27 a 30 de Agosto de 2018 / URI Erechim</h2>
+                <h1>IX Simpósio de Tecnologia da Informação da Região </br> Noroeste do Rio Grande do Sul</h1>
+                <h5>XXI Semana Acadêmica do Curso de Ciência da Computação da URI Erechim</h5>
+                <a class="btn btn-white" data-scroll href="#register">Inscreva-se</a>
+                <div class="realizacao">
+                    <h2>Realização:</h2>
+                    <ul class="sponsor">
+                        <li><img src="assets/images/logo-uri.png" alt="Logo"></li>
+                        <li><img src="assets/images/logo-setrem.png" alt="Logo"></li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Segunda-Feira </a>
-                                </h4>
-                            </div>
+            <div>
 
-                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            </div>
+        </header>
+
+        <!-- SOBRE -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h3 class="section-title">Sobre o STIN</h3>
+                <p>O STIN é um evento itinerante que anualmente é sediado por uma instituição de ensino superior da Região Noroeste do RS. Em sua 9ª edição, o STIN tem como objetivos: promover discussões e divulgação de produções acadêmicas, de pesquisas e de soluções empresariais na área de Tecnologia da Informação (TI) considerando o contexto e as potencialidades regionais.</p>
+                <h3 class="section-title">Sobre a SEMAC</h3>
+                <p>A Semana Acadêmica do Curso de Ciência da Computação da URI Erechim já é um evento tradicional do colegiado acadêmico, que já está em sua 22ª edição.</p>
+            </div>
+        </section>
+        <section id="submission" class="section submission">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h3 class="section-title">Submissões</h3>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 class="section-title">Chamada de Minicursos e Tutoriais</h4>
+                        <p>Nesta edição, autores são convidados a submeter propostas de minicursos a serem ministrados durante a programação do evento. Os tópicos dos minicursos devem adequar-se aos tópicos de interesse do evento.</p>
+                        <p>Os autores interessados devem encaminhar sua proposta através do prenchimento deste formulário até <b>15 de Julho</b>.</p>
+
+                        <h4 class="section-title">Chamada de Trabalhos</h4>
+                        <p>Autores são convidados a submeter trabalhos de  pesquisa, resultados experimentais e desenvolvimentos que incluam tópicos da lista não exaustiva a direita. <strong>Dois</strong> melhores trabalhos serão convidados a publicar na próxima edição da <a href="https://revistas.setrem.com.br/index.php/reabtic">Revista REABTIC</a> (ISSN 2446-7634).</p>
+
+                        <h4 class="section-title">Submissão</h4>
+                        <p>A submissão de trabalhos deverá ser feita através do sistema deste <b><a href="http://eventos.uri.com.br">link</a></b> (sistema de eventos da URI Erechim).</p>
+                        <h5>Formatação</h5>
+                        <p>Os artigos devem seguir o formato de artigos da SBC disponível <a href="http://www.sbc.org.br/documentos-da-sbc/summary/169-templates-para-artigos-e-capitulos-de-livros/878-modelosparapublicaodeartigos">AQUI</a>.</p>
+                        <ul class="list-arrow-right">
+                            <li>Serão escolhidos melhores artigos para serem apresentados em plenária. Os demais artigos aprovados serão apresentados em forma de pôster.</li>
+                            <li></li>
+                            <li>Devem ter no máximo 8 (oito) páginas incluindo referências, figuras e tabelas.</li>
+                            <li>Podem ser submetidos em Português, Inglês ou Espanhol.</li>
+                        </ul>
+                    </div><!-- /.col-sm-6 -->
+
+                    <div class="col-sm-6">
+                        <h4 class="section-title multiple-title">Tópicos de interesse</h4>
+                        <ul class="list-arrow-right">
+                            <li>Aplicações de Computação na Indústria</li>
+                            <li>Banco de Dados</li>
+                            <li>Cidades Inteligentes</li>
+                            <li>Comércio Eletrônico</li>
+                            <li>Desenvolvimento de Aplicativos Móveis</li>
+                            <li>Desenvolvimento de Sistemas Web</li>
+                            <li>Engenharia de Requisitos</li>
+                            <li>Engenharia de Software</li>
+                            <li>Fundamentos Teóricos da Computação e Métodos Formais</li>
+                            <li>Gestão e Governança de TI</li>
+                            <li>Informática Aplicada a Saúde</li>
+                            <li>Informática na Educação</li>
+                            <li>Inteligência Artificial</li>
+                            <li>Interação Humano Computador</li>
+                            <li>Internet das Coisas</li>
+                            <li>Manutenção de Software</li>
+                            <li>Métodos, Técnicas, Linguagens e Ferramentas para Computação</li>
+                            <li>Processos de Software</li>
+                            <li>Redes de Computadores</li>
+                            <li>Segurança da Informação</li>
+                            <li>Sistemas de Informações</li>
+                            <li>Verificação, Validação e Teste de Software</li>
+                            <li>Informática Aplicada à Agropecuária</li>
+                            <li>Computação em nuvem</li>
+                            <li>Computação de Alto Desempenho</li>
+                            <li>(outros tópicos são bem-vindos)</li>
+                        </ul>
+                    </div><!-- /.col-sm-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section>
+
+        <!-- DATAS IMPORTANTES -->
+        <section id="deadline" class="section bg-image-1 facts text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <i class="ion-ios-paper"></i>
+                        <h3>Chamada de Trabalhos</h3>
+                        <p class="personal-color">
+                        Deadline: 15 de Junho<br>
+                        Notificação: 22 de Julho<br>
+                        Versão final: 06 de Agosto
+                        </p>
+                        <a class="btn btn-white" href="http://eventos.uri.com.br">Submeter</a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <i class="ion-speakerphone"></i>
+                        <h3>Chamada de Minicursos</h3>
+                        <p class="personal-color">
+                        Deadline: 15 de Junho<br />
+                        Notificação: 02 de Julho<br />
+                        Envio de material: 30 de Julho
+                        </p>
+                        <a class="btn btn-white" href="#">Propor</a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <i class="ion-pricetags"></i>
+                        <h3>Inscrições</h3>
+                        <p class="personal-color">02 de Abril a 20 de Agosto<br/ > <br /> <br /></p>
+                        <a class="btn btn-white" href="http://eventos.uri.com.br">Increver-se</a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <i class="ion-ios-calendar"></i>
+                        <h3>IX STIN</h3>
+                        <p class="personal-color">27 a 30 de Agosto<br/ > <br /> <br /><p>
+                        <a class="btn btn-white" data-scroll href="#schedule">Programação</a>
+                    </div>
+
+                </div><!-- row -->
+            </div><!-- container -->
+        </section>
+
+        <!-- PROGRAMAÇÃO -->
+        <section id="schedule" class="section faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">Programação</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <!-- Segunda-Feira -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Segunda-Feira - 27/08</a>
+                                    </h4>
+                                </div>
+
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <h3>Noite</h3>
+                                        <ul class="programacao">
+                                            <li><b>19h</b> - Abertura</li>
+                                            <li><b>20h</b> - Palestra: <em>A Ser Definida</em></li>
+                                            <li><b>22h</b> - Coquetel de Abertura</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Segunda-Feira -->
+                            <!-- Terça-Feira -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Terça-Feira - 28/08 </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <h3>Tarde</h3>
+                                        <ul class="programacao">
+                                            <li><b>13h30min - 16h30min</b> - Minicurso X</li>
+                                            <li><b>13h30min - 16h30min</b> - Minicurso Y</li>
+                                            <li><b>13h30min - 16h30min</b> - Minicurso Z</li>
+                                        </ul>
+                                        <h3>Noite</h3>
+                                        <ul class="programacao">
+                                            <li><b>19h30min - 22h30min</b> - Minicurso X</li>
+                                            <li><b>19h30min - 22h30min</b> - Minicurso Y</li>
+                                            <li><b>19h30min - 22h30min</b> - Minicurso Z</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Terça-Feira -->
+                            <!-- Quarta-Feira -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Quarta-Feira - 29/08</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        <h3>Noite</h3>
+                                        <ul class="programacao">
+                                            <li><b>19h</b> - Palestra: <em>A ser definida</em></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Quarta-Feira -->
+                            <!-- Quinta-Feira -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Quinta-Feira - 30/08</a>
+                                    </h4>
+                                </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                 <div class="panel-body">
                                     <h3>Noite</h3>
                                     <ul class="programacao">
-                                        <li><b>19h</b> - Abertura</li>
-                                        <li><b>20h</b> - Palestra: <em>Título da palestra</em></li>
-                                        <li><b>22h</b> - Coquetel de Abertura</li>
+                                        <li><b>18h30min - 21h</b> - Apresentações de Trabalhos - Pôsteres</li>
+                                        <li><b>19h - 21h30min</b> - Apresentações de Trabalhos - Plenárias</li>
+                                        <li><b>22h</b> - Encerramento</li>
                                     </ul>
-                                    
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Terça-Feira </a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                              <div class="panel-body">
-				<h3>Tarde</h3>
-                                <p>Lorem Ipsum</p>
-				<h3>Noite</h3>
-				<p>Lorem Ipsum</p>
-			      </div>
-                            </div>
-                        </div>
-  
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Quarta-Feira</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                              <div class="panel-body">
-				<h3>Tarde</h3>
-                                <p>Lorem Ipsum</p>
-				<h3>Noite</h3>
-				<p>Lorem Ipsum</p>
-			      </div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Quinta-Feira </a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                              <div class="panel-body">
-				<h3>Tarde</h3>
-                                <p>Lorem Ipsum</p>
-				<h3>Noite</h3>
-				<p>Lorem Ipsum</p>
-			      </div>
-                            </div>
+                            <!-- End Quinta-Feira -->
                         </div>
                     </div>
                 </div>
-            </div>
-    </section>
+            </div> <!-- container -->
+        </section>
 
- <section id="register" class="section registration">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                  <h3 class="section-title">Inscrições</h3>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-		  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-		  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+        <!-- INSCRIÇÕES -->
+        <section id="register" class="section registration">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="section-title">Inscrições</h3>
+                        <p>As inscrições devem ser feitas através deste <b><a href="http://eventos.uri.com.br">link</a></b>. As inscrições se encerram em <b>20 de Agosto de 2018</b>.</p>
+                        <p><strong>IMPORTANTE</strong></p>
+                        <p>Trabalhos aprovados devem realizar a inscrição no evento de pelo menos um autor até <strong>10 de Agosto</strong> a fim de terem seus artigos adicionados aos anais do evento.</p> 
+                        <p><strong>CERTIFICADOS</strong></p>
+                        <p>Serão emitidos certificados aos participantes, que poderão ser acessados e baixados a qualquer tempo após a conclusão do curso, no Painel de Eventos da URI Erechim, utilizando e-mail e senha cadastrados no ato da inscrição.</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3 class="section-title">Tabela de Preços</h3>
+                        <table>
+                            <tr>
+                                <td><center><b>Categoria</b></center></td>
+                                <td><center><b>Valor</b></center></td>
+                            </tr>
+                            <tr>
+                                <td>Ouvintes - Acadêmicos URI Erechim</td>
+                                <td>R$60,00</td>
+                            </tr>
+                            <tr>
+                                <td>Ouvintes - Acadêmicos Outras IES</td>
+                                <td>R$60,00</td>
+                            </tr>
+                            <tr>
+                                <td>Ouvintes - Professores e Comunidade em Geral</td>
+                                <td>R$80,00</td>
+                            </tr>
+                            <tr>
+                                <td>Autores de Artigos Aprovados (Estudantes e/ou Professores)*</td>
+                                <td>R$90,00</td>
+                            </tr>
+                            <tr>
+                                <td>Autores de Minicursos Aprovados**</td>
+                                <td>Isentos</td>
+                            </tr>
+                        </table>
+                        <p>*Valor pago pelo autor que submeter o trabalho no sistema.<br />
+                        **Até <strong>2</strong> ministrantes por minicurso aprovado.</p>
+                    </div>
                 </div>
+            </div> <!-- container -->
+        </section>
 
-		<div class="col-md-6">
-                  <h3 class="section-title">Tabela de Preços</h3>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-		  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-		  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            </div>
-                
-           
-        </div>
-    </section>
-    
-    <section id="organization" class="section speakers">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <h3 class="section-title">Organização</h3>
-                
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="hosting" class="section photos">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Hospedagem e Transporte</h3>
-                </div>
-            </div>            
-        </div>
-    </section>
-
-    <section id="location" class="section location">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h3 class="section-title">Local do Evento</h3>
-                    <address>
-                        <p>Erechim<br> Universidade Regional Integrada<br>RS-331<br> Telefone: </p>
-                    </address>
-                </div>
-                <div class="col-sm-9">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.356234263225!2d-52.23181444971431!3d-27.61348168274663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e312520adb5415%3A0xb6a910ba474afdad!2sURI+Erechim+CAMPUS+2!5e0!3m2!1sen!2sbr!4v1520034693091" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section speakers">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <h3 class="section-title">Contato</h3>
-                
+        <!-- LOCAL EVENTO -->
+        <section id="location" class="section location">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h3 class="section-title">Local do Evento</h3>
+                        <address>
+                            <p>Universidade Regional Integrada do Alto Uruguai e das Missões - URI Erechim - Campus 2 Demoliner<br />
+                            Erechim
+                            <br>RS-331<br>
+                            Telefone: (54) 3520-9000</p>
+                        </address>
+                    </div>
+                    <div class="col-sm-9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.356234263225!2d-52.23181444971431!3d-27.61348168274663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e312520adb5415%3A0xb6a910ba474afdad!2sURI+Erechim+CAMPUS+2!5e0!3m2!1sen!2sbr!4v1520034693091" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <section id="partner" class="section partner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Patrocínio</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-1"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-2"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-3"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-4"></a>
-                </div>
-            </div>
+        </section>
 
-            <div class="row">
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-5"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-6"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-7"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-8"></a>
-                </div>
-            </div>   
-    </section>
-    
-    
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="site-info">lorem ipsum</p>
+        <!-- CONTATO -->
+        <section id="contact" class="section speakers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">Contato e Mais Informações</h3>
+                        <p>
+                            URI Erechim | 54 3520-9000 <br />
+                            Coordenação do Curso de Ciência da Computação | Ramal ...
+                        </p>
+                        <p>stin18@uricer.edu.br</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
 
-    <!-- script -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+        <!-- ORGANIZAÇÃO -->
+        <section id="organization" class="section speakers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">Realização</h3>
+                        <p>Universidade Regional Integrada do Alto Uruguai e das Missões - URI Erechim</p>
+                        <p>Coordenação do Curso de Ciência da Computação da URI Erechim</p>
+                        <p>Comissão:</p>
+                        <ul class="programacao">
+                            <li>Daniel Menin Torteli</li>
+                            <li>Fábio Zanin</li>
+                            <li>Gerson Groth</li>
+                            <li>Jessica Imlau Dagostini</li>
+                            <li>Marcos Vinicius de Moura Lima</li>
+                            <li>Neilor Avelino Tonin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOSPEDAGEM/TRANSPORTE -->
+        <!-- <section id="hosting" class="section photos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">Hospedagem e Transporte</h3>
+                    </div>
+                </div>            
+            </div>
+        </section> -->
+
+        <!-- PATROCINADORES -->
+        <!-- <section id="partner" class="section partner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">Patrocínio</h3>
+                    </div>
+                </div>
+                <!-- Patrocinadores Box 1 -->
+                <!-- <div class="row">
+                    <div class="col-sm-3">
+                        <a class="partner-box partner-box-1"></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a class="partner-box partner-box-2"></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a class="partner-box partner-box-3"></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a class="partner-box partner-box-4"></a>
+                    </div>
+                </div>
+                <!-- Patrocinadores Box 2 -->
+                <!-- <div class="row">
+                    <div class="col-sm-3">
+                        <a class="partner-box partner-box-5"></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a class="partner-box partner-box-6"></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a class="partner-box partner-box-7"></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a class="partner-box partner-box-8"></a>
+                    </div>
+                </div>
+            </div> <!--container -->   
+        <!-- </section> -->
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- logo -->
+                    <div class="site-branding">
+                        <a class="logo" href="index.html">
+                            <!-- logo image  -->
+                            <img src="assets/images/logo-stin.png" alt="Logo">
+                            2018
+                        </a>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- /.navbar-header -->
+
+                <div class="collapse navbar-collapse" id="navbar-items">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- navigation menu -->
+                        <li class="active"><a data-scroll href="#about">Sobre</a></li>
+                        <li class="active"><a data-scroll href="#submission">Submissão</a></li>
+                        <li><a data-scroll href="#deadline">Datas Importantes</a></li>              
+                        <li><a data-scroll href="#schedule">Programação</a></li>
+                        <li><a data-scroll href="#register">Inscrições</a></li>
+                        <li><a data-scroll href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+            </div><!-- /.container -->
+        </footer>
+
+        <!-- SCRIPTS -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

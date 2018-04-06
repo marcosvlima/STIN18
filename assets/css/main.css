@@ -361,6 +361,25 @@ ul li {
   font-weight: 300;
 }
 
+.realizacao {
+  position: absolute;
+  margin: 4% 15%;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.realizacao h2{
+  text-align: initial;
+}
+
+.sponsor li{
+  margin-top: 7px;
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -611,4 +630,20 @@ ul li {
 
 .programacao li{
   font-weight: 100;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
 }
