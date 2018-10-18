@@ -646,3 +646,12 @@ td, th {
 tr:nth-child(even) {
   background-color: #f8f8f8;
 }
+
+.center {
+  text-align: center;
+}
+
+/*essa classe foi setada porque as cores dos links são pretos*/
+.grey-font > a {
+  color: #4e4e4e;
+}
