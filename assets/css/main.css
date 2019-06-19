@@ -362,21 +362,19 @@ ul li {
 
 .realizacao {
   position: absolute;
-  margin: 4% 15%;
-  text-transform: capitalize;
-  font-size: 22px;
+  margin: 8% 15%;
 }
 
 .realizacao h2{
-  text-align: initial;
+  text-align: left;
+  font-size: 20px!important;  
+  text-transform: none;
+  padding-left: 15%;
 }
 
 .sponsor li{
-  margin-top: 7px;
+  padding-right: 7px;
   display: inline-block;
-  padding: 2px 5px;
-  font-size: 10px;
-  text-transform: capitalize;
 }
 
 @media (min-width: 768px) {
